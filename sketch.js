@@ -54,7 +54,7 @@ function draw() {
   background(255);
   Engine.update(engine);
   fill("red");
-  for (var i = 0; i < particles.length; i++) {
+  for (var i = 0; i < plinkos.length; i++) {
      
     plinkos[i].display();
     
